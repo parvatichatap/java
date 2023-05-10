@@ -5,10 +5,6 @@ package java8;
  * Reference to a constructor
  */
 
-import thiskeyword.Student;
-
-import java.io.LineNumberInputStream;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -31,10 +27,7 @@ public class MethodRef {
 
         @Override
         public String toString() {
-            return "Student{" +
-                    "id=" + id +
-                    ", name='" + name + '\'' +
-                    '}';
+            return "Student{" + "id=" + id + ", name='" + name + '\'' + '}';
         }
 
         public Student(int id, String name) {
